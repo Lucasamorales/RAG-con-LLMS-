@@ -10,7 +10,7 @@ import shutil
 #  COHERE API KEY
 os.environ["COHERE_API_KEY"] = getpass.getpass("ingrese su COHERE_API_KEY: ")
 
-DATA_PATH = "data"
+DATA_PATH = "../data"
 CHROMA_PATH = "chroma"
 
 
@@ -39,8 +39,8 @@ def load_documents():
 
 def split_text(documents: list[Document]):
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=300,     # número de caracteres en cada chunk
-        chunk_overlap=100,  # número de caracteres que cada chunk se solapa con el siguiente
+        chunk_size=800,     # número de caracteres en cada chunk
+        chunk_overlap=300,  # número de caracteres que cada chunk se solapa con el siguiente
         length_function=len,
         add_start_index=True,
     )
