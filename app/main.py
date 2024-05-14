@@ -10,7 +10,7 @@ import uvicorn
 app = FastAPI()
 
 # Configuraciond e la API KEY de COHERE
-os.environ["COHERE_API_KEY"] = "sfJ8x2tthKmqJManrr3wDCseP5AAqZ8SRykUlens"
+os.environ["COHERE_API_KEY"] = "api key"
 
 # Carga de la base de datos vetorial
 CHROMA_PATH = "chroma"
