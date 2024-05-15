@@ -4,7 +4,7 @@ RAG-con-LLMS
 Descripción del Proyecto
 ------------------------
 
-![img.png](img.png)
+![img.png](src/img.png)
 
 Este proyecto implementa una solución de tipo RAG (retrieved augmented generation) que permite interactuar con un modelo de lenguaje (LLM) a través de una API para generar respuestas a preguntas basadas en un documento proporcionado. Utiliza embeddings para dividir el documento en chunks y almacenar estos en una base de datos vectorial para realizar búsquedas de similaridad y proporcionar contexto relevante al LLM.
 
