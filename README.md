@@ -81,7 +81,8 @@ Instalación y Configuración
         ```python
         COHERE_API_KEY = "tu_clave_api"
         ```
-### Configuración de la Base de Datos
+### Configuración de la Base de Datos:
+#### (Si se clono el repostorio, la base de datos va a estar descargada y lista. Este paso solo es necesario si se borra la carpeta "chroma") 
 
 1.  Ejecuta el script para configurar la base de datos:
 
