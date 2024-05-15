@@ -76,7 +76,7 @@ Instalación y Configuración
 
 3.  Configura las variables de entorno:
 
-    -   Abre `app/core/config.py` y establece tu clave API de Cohere:
+    -   Abre `src/app/core/config.py` y establece tu clave API de Cohere:
 
         ```python
         COHERE_API_KEY = "tu_clave_api"
@@ -87,7 +87,7 @@ Instalación y Configuración
 1.  Ejecuta el script para configurar la base de datos:
 
    ``` sh
-    python app/database/setup.py
+    python src/app/database/setup.py
    ```
 
 ### Ejecución de la API
@@ -95,7 +95,7 @@ Instalación y Configuración
 1.  Inicia la API:
 
     ```sh
-    uvicorn app.main:app --host 0.0.0.0 --port 8000
+       python src/app/main.py
     ```
 
 ### Uso de Docker
