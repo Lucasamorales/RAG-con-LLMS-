@@ -1,0 +1,149 @@
+chromadb==0.5.0
+httptools==0.6.1
+langchain==0.1.20
+langchain-cohere==0.1.4
+langid==1.1.6
+pybind11==2.12.0
+python-docx==1.1.2
+python-dotenv==1.0.1
+tiktoken==0.6.0
+unstructured==0.13.7
+watchfiles==0.21.0
+websockets==12.0
+# aiohttp==3.9.5 # Installed as dependency for langchain, langchain-community
+# aiosignal==1.3.1 # Installed as dependency for aiohttp
+# annotated-types==0.6.0 # Installed as dependency for pydantic
+# anyio==4.3.0 # Installed as dependency for httpx, starlette, watchfiles
+# asgiref==3.8.1 # Installed as dependency for opentelemetry-instrumentation-asgi
+# async-timeout==4.0.3 # Installed as dependency for aiohttp, langchain
+# attrs==23.2.0 # Installed as dependency for aiohttp
+# backoff==2.2.1 # Installed as dependency for posthog, unstructured
+# bcrypt==4.1.3 # Installed as dependency for chromadb
+# beautifulsoup4==4.12.3 # Installed as dependency for unstructured
+# boto3==1.34.103 # Installed as dependency for cohere
+# botocore==1.34.103 # Installed as dependency for boto3, s3transfer
+# build==1.2.1 # Installed as dependency for chromadb
+# cachetools==5.3.3 # Installed as dependency for google-auth
+# certifi==2024.2.2 # Installed as dependency for httpcore, httpx, kubernetes, requests, unstructured-client
+# chardet==5.2.0 # Installed as dependency for unstructured
+# charset-normalizer==3.3.2 # Installed as dependency for requests, unstructured-client
+# chroma-hnswlib==0.7.3 # Installed as dependency for chromadb
+# click==8.1.7 # Installed as dependency for nltk, typer, uvicorn
+# cohere==5.4.0 # Installed as dependency for langchain-cohere
+# colorama==0.4.6 # Installed as dependency for build, click, tqdm
+# coloredlogs==15.0.1 # Installed as dependency for onnxruntime
+# dataclasses-json==0.6.6 # Installed as dependency for langchain, langchain-community, unstructured, unstructured-client
+# deepdiff==7.0.1 # Installed as dependency for unstructured-client
+# deprecated==1.2.14 # Installed as dependency for opentelemetry-api, opentelemetry-exporter-otlp-proto-grpc
+# dnspython==2.6.1 # Installed as dependency for email-validator
+# email-validator==2.1.1 # Installed as dependency for fastapi
+# emoji==2.11.1 # Installed as dependency for unstructured
+# exceptiongroup==1.2.1 # Installed as dependency for anyio
+# fastapi==0.111.0 # Installed as dependency for chromadb, fastapi-cli
+# fastapi-cli==0.0.3 # Installed as dependency for fastapi
+# fastavro==1.9.4 # Installed as dependency for cohere
+# filelock==3.14.0 # Installed as dependency for huggingface-hub
+# filetype==1.2.0 # Installed as dependency for unstructured
+# flatbuffers==24.3.25 # Installed as dependency for onnxruntime
+# frozenlist==1.4.1 # Installed as dependency for aiohttp, aiosignal
+# fsspec==2024.3.1 # Installed as dependency for huggingface-hub
+# google-auth==2.29.0 # Installed as dependency for kubernetes
+# googleapis-common-protos==1.63.0 # Installed as dependency for opentelemetry-exporter-otlp-proto-grpc
+# greenlet==3.0.3 # Installed as dependency for sqlalchemy
+# grpcio==1.63.0 # Installed as dependency for chromadb, opentelemetry-exporter-otlp-proto-grpc
+# h11==0.14.0 # Installed as dependency for httpcore, uvicorn
+# httpcore==1.0.5 # Installed as dependency for httpx
+# httpx==0.27.0 # Installed as dependency for cohere, fastapi
+# httpx-sse==0.4.0 # Installed as dependency for cohere
+# huggingface-hub==0.23.0 # Installed as dependency for tokenizers
+# humanfriendly==10.0 # Installed as dependency for coloredlogs
+# idna==3.7 # Installed as dependency for anyio, email-validator, httpx, requests, unstructured-client, yarl
+# importlib-metadata==7.0.0 # Installed as dependency for opentelemetry-api
+# importlib-resources==6.4.0 # Installed as dependency for chromadb
+# jinja2==3.1.4 # Installed as dependency for fastapi
+# jmespath==1.0.1 # Installed as dependency for boto3, botocore
+# joblib==1.4.2 # Installed as dependency for nltk
+# jsonpatch==1.33 # Installed as dependency for langchain-core
+# jsonpath-python==1.0.6 # Installed as dependency for unstructured-client
+# jsonpointer==2.4 # Installed as dependency for jsonpatch
+# kubernetes==29.0.0 # Installed as dependency for chromadb
+# langchain-community==0.0.38 # Installed as dependency for langchain
+# langchain-core==0.1.52 # Installed as dependency for langchain, langchain-cohere, langchain-community, langchain-text-splitters
+# langchain-text-splitters==0.0.1 # Installed as dependency for langchain
+# langdetect==1.0.9 # Installed as dependency for unstructured
+# langsmith==0.1.57 # Installed as dependency for langchain, langchain-community, langchain-core
+# lxml==5.2.1 # Installed as dependency for python-docx, unstructured
+# markdown-it-py==3.0.0 # Installed as dependency for rich
+# markupsafe==2.1.5 # Installed as dependency for jinja2
+# marshmallow==3.21.2 # Installed as dependency for dataclasses-json, unstructured-client
+# mdurl==0.1.2 # Installed as dependency for markdown-it-py
+# mmh3==4.1.0 # Installed as dependency for chromadb
+# monotonic==1.6 # Installed as dependency for posthog
+# mpmath==1.3.0 # Installed as dependency for sympy
+# multidict==6.0.5 # Installed as dependency for aiohttp, yarl
+# mypy-extensions==1.0.0 # Installed as dependency for typing-inspect, unstructured-client
+# nltk==3.8.1 # Installed as dependency for unstructured
+# numpy==1.26.4 # Installed as dependency for chroma-hnswlib, chromadb, langchain, langchain-community, langid, onnxruntime, unstructured
+# oauthlib==3.2.2 # Installed as dependency for kubernetes, requests-oauthlib
+# onnxruntime==1.17.3 # Installed as dependency for chromadb
+# opentelemetry-api==1.24.0 # Installed as dependency for chromadb, opentelemetry-exporter-otlp-proto-grpc, opentelemetry-instrumentation, opentelemetry-instrumentation-asgi, opentelemetry-instrumentation-fastapi, opentelemetry-sdk
+# opentelemetry-exporter-otlp-proto-common==1.24.0 # Installed as dependency for opentelemetry-exporter-otlp-proto-grpc
+# opentelemetry-exporter-otlp-proto-grpc==1.24.0 # Installed as dependency for chromadb
+# opentelemetry-instrumentation==0.45b0 # Installed as dependency for opentelemetry-instrumentation-asgi, opentelemetry-instrumentation-fastapi
+# opentelemetry-instrumentation-asgi==0.45b0 # Installed as dependency for opentelemetry-instrumentation-fastapi
+# opentelemetry-instrumentation-fastapi==0.45b0 # Installed as dependency for chromadb
+# opentelemetry-proto==1.24.0 # Installed as dependency for opentelemetry-exporter-otlp-proto-common, opentelemetry-exporter-otlp-proto-grpc
+# opentelemetry-sdk==1.24.0 # Installed as dependency for chromadb, opentelemetry-exporter-otlp-proto-grpc
+# opentelemetry-semantic-conventions==0.45b0 # Installed as dependency for opentelemetry-instrumentation-asgi, opentelemetry-instrumentation-fastapi, opentelemetry-sdk
+# opentelemetry-util-http==0.45b0 # Installed as dependency for opentelemetry-instrumentation-asgi, opentelemetry-instrumentation-fastapi
+# ordered-set==4.1.0 # Installed as dependency for deepdiff
+# orjson==3.10.3 # Installed as dependency for chromadb, fastapi, langsmith
+# overrides==7.7.0 # Installed as dependency for chromadb
+# packaging==23.2 # Installed as dependency for build, huggingface-hub, langchain-core, marshmallow, onnxruntime, unstructured-client
+# posthog==3.5.0 # Installed as dependency for chromadb
+# protobuf==4.25.3 # Installed as dependency for googleapis-common-protos, onnxruntime, opentelemetry-proto
+# pyasn1==0.6.0 # Installed as dependency for pyasn1-modules, rsa
+# pyasn1-modules==0.4.0 # Installed as dependency for google-auth
+# pydantic==2.7.1 # Installed as dependency for chromadb, cohere, fastapi, langchain, langchain-core, langsmith
+# pydantic-core==2.18.2 # Installed as dependency for pydantic
+# pygments==2.18.0 # Installed as dependency for rich
+# pypdf==4.2.0 # Installed as dependency for unstructured-client
+# pypika==0.48.9 # Installed as dependency for chromadb
+# pyproject-hooks==1.1.0 # Installed as dependency for build
+# pyreadline3==3.4.1 # Installed as dependency for humanfriendly
+# python-dateutil==2.9.0.post0 # Installed as dependency for botocore, kubernetes, posthog, unstructured-client
+# python-iso639==2024.4.27 # Installed as dependency for unstructured
+# python-magic==0.4.27 # Installed as dependency for unstructured
+# python-multipart==0.0.9 # Installed as dependency for fastapi
+# pyyaml==6.0.1 # Installed as dependency for chromadb, huggingface-hub, kubernetes, langchain, langchain-community, langchain-core
+# rapidfuzz==3.9.0 # Installed as dependency for unstructured
+# regex==2024.5.10 # Installed as dependency for nltk, tiktoken
+# requests==2.31.0 # Installed as dependency for chromadb, cohere, huggingface-hub, kubernetes, langchain, langchain-community, langsmith, posthog, requests-oauthlib, tiktoken, unstructured, unstructured-client
+# requests-oauthlib==2.0.0 # Installed as dependency for kubernetes
+# rich==13.7.1 # Installed as dependency for typer
+# rsa==4.9 # Installed as dependency for google-auth
+# s3transfer==0.10.1 # Installed as dependency for boto3
+# shellingham==1.5.4 # Installed as dependency for typer
+# six==1.16.0 # Installed as dependency for kubernetes, langdetect, posthog, python-dateutil, unstructured-client
+# sniffio==1.3.1 # Installed as dependency for anyio, httpx
+# soupsieve==2.5 # Installed as dependency for beautifulsoup4
+# sqlalchemy==2.0.30 # Installed as dependency for langchain, langchain-community
+# starlette==0.37.2 # Installed as dependency for fastapi
+# sympy==1.12 # Installed as dependency for onnxruntime
+# tabulate==0.9.0 # Installed as dependency for unstructured
+# tenacity==8.3.0 # Installed as dependency for chromadb, langchain, langchain-community, langchain-core
+# tokenizers==0.19.1 # Installed as dependency for chromadb, cohere
+# tomli==2.0.1 # Installed as dependency for build
+# tqdm==4.66.4 # Installed as dependency for chromadb, huggingface-hub, nltk
+# typer==0.12.3 # Installed as dependency for chromadb, fastapi-cli
+# types-requests==2.31.0.20240406 # Installed as dependency for cohere
+# typing-extensions==4.11.0 # Installed as dependency for anyio, asgiref, chromadb, cohere, fastapi, huggingface-hub, opentelemetry-sdk, pydantic, pydantic-core, pypdf, python-docx, sqlalchemy, typer, typing-inspect, unstructured, unstructured-client, uvicorn
+# typing-inspect==0.9.0 # Installed as dependency for dataclasses-json, unstructured-client
+# ujson==5.9.0 # Installed as dependency for fastapi
+# unstructured-client==0.22.0 # Installed as dependency for unstructured
+# urllib3==2.2.1 # Installed as dependency for botocore, kubernetes, requests, types-requests, unstructured-client
+# uvicorn==0.29.0 # Installed as dependency for chromadb, fastapi, fastapi-cli
+# websocket-client==1.8.0 # Installed as dependency for kubernetes
+# wrapt==1.16.0 # Installed as dependency for deprecated, opentelemetry-instrumentation, unstructured
+# yarl==1.9.4 # Installed as dependency for aiohttp
+# zipp==3.18.1 # Installed as dependency for importlib-metadata

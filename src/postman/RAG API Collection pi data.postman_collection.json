@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "8664542c-222a-4aab-a611-297dd0cf162b",
+		"name": "RAG API Collection pi data",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17848987",
+		"_collection_link": "https://warped-star-866771.postman.co/workspace/RAG-with-LLMS-API-test~296d6d9e-f710-4db4-af3c-8c953d2d2dfa/collection/17848987-8664542c-222a-4aab-a611-297dd0cf162b?action=share&source=collection_link&creator=17848987"
+	},
+	"item": [
+		{
+			"name": "test preguntas",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user_name\": \"John Doe\",\r\n    \"question\": \" What is the name of the magical flower?\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/ask",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"ask"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
