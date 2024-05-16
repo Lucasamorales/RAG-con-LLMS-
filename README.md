@@ -52,7 +52,7 @@ Instalación y Configuración
 
 ### Prerrequisitos
 
--   Python 3.10
+-   [Python 3.10](https://www.python.org/downloads/release/python-31014/)
 -   [Docker](https://www.docker.com/)
 -   [Postman](https://www.postman.com/downloads/)
 
@@ -135,6 +135,10 @@ Uso de la API
   "response": "Zara es un personaje mencionado en el documento. 🌟"
 }
 ```
+#### Enviar solicitud por bash
+``` bash
+curl -X POST http://localhost:8000/ask -H "Content-Type: application/json" -d "{\"user_name\": \"John Doe\", \"question\": \"What did Emma decide to do?\"}"
+````
 
 Pruebas de la API con Postman
 -----------------------------
